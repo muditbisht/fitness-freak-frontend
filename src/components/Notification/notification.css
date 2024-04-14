@@ -1,0 +1,32 @@
+.nodisplay{
+    display: none;
+}
+.display{
+    display: block;
+}
+.notis{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    max-height: 10em;
+    overflow-y: scroll;
+    width: 300px;
+    margin-top: 20px;
+    padding: 0px;
+    border: 0px;
+    z-index: 100;
+    background-color: white;
+    /* border: 2px solid black; */
+}
+
+.elem {
+    /* background-color: gray; */
+    cursor: pointer;
+    border-bottom: 1px solid black;
+    margin-bottom: 25px;
+}
+
+.elem p {
+    font-size: 15px;
+    /* color: white; */
+}
